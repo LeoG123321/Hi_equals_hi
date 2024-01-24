@@ -1,8 +1,11 @@
-#pragma once
+/*#pragma once
 #include <iostream>
 using namespace std;
 class strcmp
 {
+public:
+	strcmp();
+
 	char lowerCase(char letter) {			//Puts letters in upper case to lower case
 		if (static_cast<int>(letter) >= 65 && static_cast<int>(letter) <= 90){	//Checks for the ACSII values that have uppercase letters
 			return (static_cast<int>(letter) + 32);			//Changes the ACSII of the letter to find it's lower case version of the upper case letter
@@ -37,4 +40,4 @@ class strcmp
 		return 0;									//Both string are the same
 	}
 };
-
+*/
