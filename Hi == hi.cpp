@@ -7,11 +7,18 @@
 */
 
 #include <iostream>
-#include "strcmp.h"
+//#include "strcmp.h"
 using namespace std;
 
 int main()
 {
-    
+    //Differnce in ASCII: 32
+
+    cout << static_cast<int>('a') << endl; 
+    cout << static_cast<int>('A') << endl;
+    cout << static_cast<int>('b') << endl;
+    cout << static_cast<int>('B') << endl;
+    cout << static_cast<int>('z') << endl;
+    cout << static_cast<int>('Z') << endl;
 }
 
