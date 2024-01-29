@@ -21,10 +21,19 @@ int main()
     cout << "Lower Case 'z': " << lowerCase('z') << endl;
     cout << "Lower Case 'Z': " << lowerCase('Z') << endl;
 
-	cout << strcmp_case_insensitive("Hello", "heLLO") << endl;
-    cout << strcmp_case_insensitive("aHello", "heLLO") << endl;
-    cout << strcmp_case_insensitive("Hello", "AheLLO") << endl;
-    cout << strcmp_case_insensitive("ZHello", "heLLO") << endl;
+    cout << "\n Comparing Strings" << endl;
+    cout << "-1 == String Input 1 is alphabetically first" << endl;
+    cout << "0 == String Input 1 & String Input 2 are the Same" << endl;
+    cout << "1 == String Input 2 is alphabetically first\n" << endl;
+
+	cout << "Comparing 'Hello' & 'heLLO': " << strcmp_case_insensitive("Hello", "heLLO") << endl;
+    cout << "Output Should be 0" << endl;
+    cout << "Comparing 'aHello' & 'heLLO': " << strcmp_case_insensitive("aHello", "heLLO") << endl;
+    cout << "Output Should be -1" << endl;
+    cout << "Comparing 'Hello' & 'AheLLO': " << strcmp_case_insensitive("Hello", "AheLLO") << endl;
+    cout << "Output Should be 1" << endl;
+    cout << "Comparing 'ZHello' & 'heLLO': " << strcmp_case_insensitive("ZHello", "heLLO") << endl;
+    cout << "Output Should be 1" << endl;
 	
     return 0;
 }
